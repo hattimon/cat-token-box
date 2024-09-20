@@ -20,22 +20,21 @@ To ensure the script runs with the necessary permissions, switch to the root acc
 sudo su
 ```
 
-### Step 2: Clone the Repository
+### Step 2: Download the Script
 
-Navigate to the root directory and clone the repository containing the script:
+Navigate to the `/root` directory and download the script directly there:
 
 ```bash
 cd /root
-git clone https://github.com/hattimon/cat-token-box.git
+wget https://raw.githubusercontent.com/hattimon/cat-token-box/main/cat20hattimon-v1.sh
 ```
 
 ### Step 3: Make the Script Executable
 
-Once the repository is cloned, navigate to its directory and make the script executable:
+Make the script executable so it can be run:
 
 ```bash
-cd cat-token-box
-chmod +x cat20hattimon-v1.sh
+chmod +x /root/cat20hattimon-v1.sh
 ```
 
 ### Step 4: Run the Script
