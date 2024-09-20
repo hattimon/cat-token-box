@@ -183,7 +183,7 @@ send_token() {
   fi
 }
 
-echo -e "${Green_font_prefix}Welcome to the CAT20 Tracker CLI script HATTIMON v1 Edition {Font_color_suffix}"
+echo -e "${Green_font_prefix}Welcome to the CAT20 Tracker CLI script HATTIMON v1 Edition ${Font_color_suffix}"
 echo -e "Select an option:"
 echo -e "1. Install environment and full node"
 echo -e "2. Create wallet"
